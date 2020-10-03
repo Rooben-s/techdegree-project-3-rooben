@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>THE CODE REVIEW</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header>
+      <h1>THE CODE REVIEW</h1>
+    </header>
+      <div class="wrapper">
+        <div class="top-info">
+          <h2>Signup for our newsletter</h2>
+          <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+        <hr id="topline">
+            <form action="index.html" method="post">
+              <fieldset class="top">
+                <legend><h3 class="contact">Contact Information</h3></legend>
+                  
+                <div class="box">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="user_name" placeholder="Required" required>
+                </div>
+
+                <div class="box">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="user_email" placeholder="Required" required>
+                </div>
+
+                <div class="box">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="user_name" placeholder="(111) 111-1111">
+                </div>
+
+                <div class="box">
+                  <label for="address">Street Address</label>
+                  <input type="text" id="address" name="user_name" placeholder="Optional">
+                </div>
+
+                <div class="box">
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="user_name" placeholder="Optional">
+                </div>
+
+                <div class="box">
+                  <label for="state">State</label>
+                    <select class="select-menu" id="state" name="user_state">
+                      <option disabled selected value>Choose State</option>
+                      <option value="vic">Victoria</option>
+                      <option value="nsw">New South Wales</option>
+
+
+
+                      
+                      
+                  </div>
+
+                <div class="box">
+                  <label for="zip">Zip Code</label>
+                  <input type="text" id="zip" name="user_zip" class="zip-code" placeholder="Optional">
+                </div>
+
+            </fieldset>
+
+            <hr id="bottomline">
+
+            <fieldset class="bottom">
+                <legend><h3 class="newsletter">Newsletter</h3></legend>
+                  <label class="newsletter-select">Select the newsletters you would like to receive:</label>
+                    <div class="box">
+                      <input type="checkbox" id="html-news" name="user_newsletter">
+                      <label class="news-type" for="html-news">HTML News</label>
+                    </div>
+
+                    <div class="box">
+                      <input type="checkbox" id="css" name="user_newsletter">
+                      <label class="news-type" for="css">CSS News</label>
+                    </div>
+
+                    <div class="box">
+                      <input type="checkbox" id="javascript" value="newsletter_javascript" name="user_newsletter">
+                      <label class="news-type" for="javascript">Javascript News</label>
+                    </div>
+
+                  <label class="text">Newsletter format</label>
+                  
+                  <div class="box">
+                    <input type="radio" id="html-format" name="user_format">
+                    <label for="html-format" class="news-type">HTML</label>
+                  </div>
+
+                  <div class="box">
+                    <input type="radio" id="plain-format" name="user_format">
+                    <label for="plain-format" class="news-type">Plain Text</label>
+                  </div>
+
+                  <label class="text" for="other-topics">Other topics you'd like to hear about:</label>
+
+                  <textarea id="other-topics" name="other_topics"></textarea>
+
+                  <button type="submit">Sign Up</button>
+
+              <p id="copyright">Copyright The Code Review</p>
+              </fieldset>
+            </form>
+
+
+      </div>
+  </body>
+</html>
